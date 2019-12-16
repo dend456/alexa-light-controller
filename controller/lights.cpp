@@ -12,7 +12,7 @@ std::map<const std::string, std::pair<int,int>> commands
 	{"lights_on"s, {16777173, 10}},
 	{"lights_dim"s, {16777077, 10}},
 	{"fan_off"s, {16776981, 10}},
-	{"fan_lows"s, {16777093, 10}},
+	{"fan_low"s, {16777093, 10}},
 	{"fan_med"s, {16777029, 10}},
 	{"fan_high"s, {16777157, 10}}
 };

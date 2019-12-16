@@ -25,7 +25,9 @@ def execute(command):
 	
 @ask.intent('Fan', default={'speed':'off'})
 def fan(speed):
+	speed = speed.lower()
 	commands = {'low': 'fan_low',
+				'lo': 'fan_low',
 				'medium': 'fan_med',
 				'high': 'fan_high',
 				'hi': 'fan_high',
